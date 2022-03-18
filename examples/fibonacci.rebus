@@ -1,0 +1,10 @@
+int a = 0, b = 1, c;
+print a;
+print b;
+int i = 0;
+while(i < 10) {
+    c = b + a;
+    a = b;
+    b = c;
+    print c;
+}
